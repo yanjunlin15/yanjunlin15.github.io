@@ -1,0 +1,256 @@
+/* gobal */
+@media screen and (min-width:1200px){
+p{
+    letter-spacing: 1.2em;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    border: solid 3px;
+
+}
+.full-width{
+    width: 100%;
+
+}
+.fixed-width{
+    width: 1200px;
+    margin: auto;
+}
+.col-1{
+    width:calc(100% / 12*1);
+}
+.col-2{
+    width:calc(100% / 12*2);
+}
+.col-3{
+    width:calc(100% / 12*3);
+}
+.col-4{
+    width:calc(100% / 12*4);
+}
+.col-5{
+    width:calc(100% / 12*5);
+}
+.col-6{
+    width:calc(100% / 12*6);
+}
+.col-7{
+    width:calc(100% / 12*7);
+}
+.col-8{
+    width:calc(100% / 12*8);
+}
+.col-9{
+    width:calc(100% / 12*9);
+}
+.col-10{
+    width:calc(100% / 12*10);
+}
+.col-11{
+    width:calc(100% / 12*11);
+}
+.col-12{
+    width:calc(100% / 12*12);
+}
+[class*="col"]{
+    float: left;
+    padding: 15px;
+}
+/* nav */
+nav{
+    height: 80px;
+    line-height: 80px;
+    background-color: var(--nav);
+    /* position: absolute; */
+
+}
+nav .logo{
+    float: left;
+    font-weight: bold;
+    background-color: var(--gray);
+}
+nav .menu{
+    float: left;
+    margin-left: 330px;
+}
+nav li{
+    float: left;
+    border: none;
+}
+nav a{
+    text-decoration: none;
+    padding: 0 20px;
+    color:var(--dark);
+    display: block;
+}
+nav .search{
+    float: right;
+}
+nav .search a{
+
+    color: rgb(75, 74, 74);
+
+}
+/* header */
+header{
+    height: 300px;
+}
+header .wrapper{
+    float: right;
+}
+header h2{
+    font-size: 3em;
+    font-weight: normal;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    color: #333333;
+}
+header p{
+    letter-spacing: .5em;
+}
+header span{
+    color: var(--light);
+    font-weight: 500;
+}
+/* works */
+#works{
+    height: 1400px;
+}
+#works .col-4{
+    padding: 12px 12px;
+
+}
+/* myself */
+#myself{
+    height: 1100px;
+    background-color: var(--nav);
+}
+#myself .fixed-width{
+    width: 992px;
+    margin: auto;
+
+}
+#myself .title{
+    padding: 150px 0 100px 0;
+    color: var(--dark);
+    letter-spacing: .1em;
+
+
+}
+#myself .col-6 img{
+    width: 80%;
+    float: right;
+    /* text-align: center; */
+    /* padding-left: 120px; */
+    /* width: 360px; */
+    /* margin: 0 200px; */
+
+
+}
+#myself .wraper2{
+/* margin: 0 0 0 200px; */
+text-align: left;
+
+
+}
+#myself h3{
+    color: var(--grey);
+    font-weight: normal;
+    margin-bottom: 25px;
+    letter-spacing: .1em;
+    line-height: 1.5em;
+}
+#myself h2{
+    color: var(--dark);
+    font-weight: 500;
+    margin-bottom: 25px;
+    letter-spacing: .1em;
+
+}
+#myself .btn{
+    font-size: 1.3em;
+    color: var(--light);
+    /* margin: 10px 150px; */
+    padding: 15px 20px;
+    /* float: left; */
+    display: inline-block;
+    
+
+}
+#myself .mysearch{
+    /* margin-left: 25px; */
+    /* float: left; */
+    position: absolute;
+
+
+}
+#myself li{
+    /* float: left; */
+}
+#myself .mysearch a{
+    text-decoration: none;
+    /* padding: 20px 0px 20px 19px; */
+    color: var(--light);
+    display: inline-block;
+   
+    /* display: block; */
+}
+/* getStarted */
+#getStarted{
+    text-align: center;
+    background-color: var(--light);
+    height: 580px;
+}
+#getStarted .title{
+    padding: 150px 0 50px 0;
+    text-align: center;
+    color: rgb(85,75,64);
+    letter-spacing: .1em;
+}
+#getStarted h3{
+
+    color: rgb(85,75,64);
+    font-weight: normal;
+    margin-bottom: 30px;
+    letter-spacing: .1em;
+    line-height: 1.5em;
+}
+#getStarted .btn{
+    display: inline-block;
+    border: solid 3px;
+    font-size: 1.2em;
+    color: rgb(129, 115, 100);
+    margin: 10px auto;
+    padding: 25px 70px;
+}
+#footer{
+    margin-bottom: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+#footer p{
+    font-weight: 400;
+    font-size: .4em;
+    letter-spacing: .2em;
+    color: #868383;
+    line-height: 1.5em;
+    margin-top: 100px;
+}
+#footer .link{
+    margin-left: 35px;
+}
+#footer li{
+    display: inline-block;
+}
+#footer a{
+    padding: 20px 20px 20px 20px;
+    color: var(--light);
+    display: block;
+}
+#footer span{
+    color: var(--light);
+
+}
+}

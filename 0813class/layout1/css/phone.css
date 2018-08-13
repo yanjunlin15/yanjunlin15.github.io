@@ -1,0 +1,236 @@
+/* gobal */
+    p{
+        letter-spacing: 1.2em;
+    }
+    
+    .btn{
+        display: inline-block;
+        text-decoration: none;
+        border: solid 3px;
+    
+    }
+
+    .fixed-width{
+        width: 100%;
+    }
+   
+    [class*="col"]{
+        padding: 15px;
+        width: 100%;
+    }
+    /* nav */
+    nav{
+        /* height: 90px; */
+        line-height: 60px;
+        background-color: var(--nav);
+        /* position: absolute; */
+    
+    }
+    nav .logo{
+        /* float: left; */
+        font-weight: bold;
+        /* border: 1px solid rgb(136, 135, 134); */
+        background-color: rgb(141, 139, 139);
+
+    }
+    nav .menu{
+        /* float: left; */
+        /* margin: 0 250px; */
+    }
+    nav li{
+        /* float: left; */
+        border: 1px solid white;
+
+    }
+    nav a{
+        text-decoration: none;
+        padding: 0 20px;
+        color:var(--dark);
+        display: block;
+    }
+    nav .search{
+        /* float: right; */
+        /* border: 1px solid rgb(211, 210, 210); */
+
+    }
+    nav .search a{
+
+    
+        color: rgb(75, 74, 74);
+    
+    }
+    /* header */
+    header{
+        /* height: 400px; */
+        margin-top: 180px;
+        margin-bottom: 150px;
+    }
+    header .wrapper{
+        /* float: right; */
+        text-align: center;
+        vertical-align: middle;
+    }
+    header h2{
+        font-size: 1.5em;
+        font-weight: 520;
+        margin-top: 90px;
+        margin-bottom: 20px;
+        color: #333333;
+     
+    }
+    header p{
+        letter-spacing: .2em;
+        font-size: .1em;
+    }
+    header span{
+        color: var(--light);
+        font-weight: 500;
+    }
+    /* works */
+    #works{
+        /* height: 1400px; */
+    }
+    #works .col-4{
+        padding: 12px 12px;
+    
+    }
+    /* myself */
+    #myself{
+        /* height: 1100px; */
+        background-color: var(--nav);
+        padding-bottom: 100px;
+    
+    }
+    
+    #myself .title{
+        /* padding: 150px 0 100px 0; */
+        text-align: center;
+        color: var(--dark);
+        letter-spacing: .1em;
+        font-size: 1.5em;
+        margin-top: 110px;
+        /* padding-top: 50px; */
+        padding-bottom: 20px;
+       
+    
+    }
+
+    #myself .col-6 img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #myself .wraper2{
+    margin-top: 20px;
+    /* margin: 0 0 0 180px; */
+    text-align: center;
+    
+    
+    }
+    #myself h3{
+        color: var(--grey);
+        font-weight: normal;
+        margin-bottom: 30px;
+        letter-spacing: .1em;
+        line-height: 1.5em;
+        font-size: 1em;
+       
+    }
+    #myself h2{
+        color: var(--dark);
+        font-weight: 500;
+        margin-bottom: 25px;
+        letter-spacing: .1em;
+        font-size: 1.5em;
+        
+        
+    }
+    #myself .btn{
+        display: block;
+        font-size: 1.3em;
+        color: var(--light);
+        margin: 20px auto;
+        padding: 10px 15px;
+        text-align: center;
+    }
+    #myself .mysearch{
+        text-align: center;
+        /* margin: 0 160px; */
+        /* display: inline-block; */
+    }
+    #myself li{
+        display: inline-block;
+        /* margin: 10px 20px 0 20px; */
+        /* float: left; */
+        
+
+    }
+    #myself .mysearch a{
+        text-decoration: none;
+        /* margin: 0 150px; */
+        padding: 20px 10px 20px 10px;
+        color: var(--light);
+        display: block;
+       
+    }
+    /* getStarted */
+    #getStarted{
+        text-align: center;
+        background-color: var(--light);
+        height: 700px;
+    }
+    #getStarted .title{
+        padding: 150px 0 50px 0;
+        text-align: center;
+        color: rgb(85,75,64);
+        letter-spacing: .1em;
+    }
+    #getStarted h3{
+    
+        color: rgb(85,75,64);
+        font-weight: normal;
+        margin-bottom: 50px;
+        letter-spacing: .1em;
+        line-height: 1.5em;
+        /* padding-right: 120px;
+        padding-left: 120px; */
+
+        /* font-size: 1em; */
+    }
+    #getStarted .btn{
+        display: block;
+        border: solid 3px;
+        font-size: 1.3em;
+        color: rgb(129, 115, 100);
+        /* margin: 10px auto; */
+        padding: 15px 0px;
+    
+
+    }
+    #footer{
+        /* padding: 100px 100px; */
+        text-align: center;
+        vertical-align: middle;
+        height: 180px;
+    }
+    #footer p{
+        margin-top: 130px;
+        margin-bottom: 20px;
+        font-weight: 400;
+        letter-spacing: .2em;
+        color: #868383;
+        font-size: .1em;
+    }
+    #footer li{
+        display: inline-block;
+        padding: 0 20px;
+    }
+    #footer a{
+        /* padding: 0px 10px 0px 10px; */
+        color: var(--light);
+        display: inline-block;
+    }
+    #footer span{
+        color: var(--light);
+    
+    }
+    
